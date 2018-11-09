@@ -13,7 +13,7 @@ var myApp = angular.module('formApp', [
             "properties": {
                 "image": {
                     "title": "Image (Label coming from form definition)",
-                    "type": "array",
+                    "type": "string",
                     "format": "singlefile",
                     "x-schema-form": {
                         "type": "array"

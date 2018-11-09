@@ -23,7 +23,7 @@ angular
              defaultMaxItemsMsg = 'You can\'t upload more than one file.';
 
          var nwpSinglefileUpload = function (name, schema, options) {
-            if (schema.type === 'array' && schema.format === 'singlefile') {
+            if (schema.type === 'string' && schema.format === 'singlefile') {
                if (schema.pattern && schema.pattern.mimeType && !schema.pattern.validationMessage) {
                   schema.pattern.validationMessage = defaultPatternMsg;
                }
