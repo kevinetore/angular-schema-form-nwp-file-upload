@@ -1,8 +1,8 @@
 {
   "name": "angular-schema-form-nwp-file-upload",
-  "homepage": "https://github.com/saburab/angular-schema-form-nwp-file-upload",
+  "homepage": "https://github.com/kevinetore/angular-schema-form-nwp-file-upload",
   "authors": [
-    "Sufian Abu-Rab <s.aburab@gmail.com>"
+    "Kevin Etore"
   ],
   "dependencies": {
     "angular": ">= 1.3",
@@ -36,8 +36,9 @@
     "branch": "master",
     "commit": "6c26056fdb9060c45d1d091edd5275fc074d8e16"
   },
-  "_source": "https://github.com/saburab/angular-schema-form-nwp-file-upload.git",
+  "_source": "https://github.com/kevinetore/angular-schema-form-nwp-file-upload.git",
   "_target": "*",
-  "_originalSource": "https://github.com/saburab/angular-schema-form-nwp-file-upload.git",
-  "_direct": true
+  "_originalSource": "https://github.com/kevinetore/angular-schema-form-nwp-file-upload.git",
+  "_direct": true,
+  "version": 1
 }
