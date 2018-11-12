@@ -43,7 +43,7 @@ angular
          schemaFormProvider.defaults.array.unshift(nwpSinglefileUpload);
 
          var nwpMultifileUpload = function (name, schema, options) {
-            if (schema.type === 'array' && schema.format === 'multifile') {
+            if (schema.type === 'string' && schema.format === 'multifile') {
                if (schema.pattern && schema.pattern.mimeType && !schema.pattern.validationMessage) {
                   schema.pattern.validationMessage = defaultPatternMsg;
                }

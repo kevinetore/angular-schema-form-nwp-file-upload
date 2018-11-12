@@ -16,7 +16,7 @@ var myApp = angular.module('formApp', [
                     "type": "string",
                     "format": "singlefile",
                     "x-schema-form": {
-                        "type": "array"
+                        "type": "string"
                     },
                     "pattern": {
                         "mimeType": "image/*",
@@ -36,10 +36,10 @@ var myApp = angular.module('formApp', [
                 },
                 "images": {
                     "title": "Images (Labels defined using the translate module)",
-                    "type": "array",
+                    "type": "string",
                     "format": "multifile",
                     "x-schema-form": {
-                        "type": "array"
+                        "type": "string"
                     },
                     "pattern": {
                         "mimeType": "image/*,!.gif",
